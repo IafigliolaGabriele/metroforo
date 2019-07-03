@@ -1,0 +1,64 @@
+[debug] [2019-07-01T21:25:26.628Z] ----------------------------------------------------------------------
+[debug] [2019-07-01T21:25:26.631Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IAFIGLIOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-07-01T21:25:26.631Z] CLI Version:   6.11.0
+[debug] [2019-07-01T21:25:26.631Z] Platform:      win32
+[debug] [2019-07-01T21:25:26.631Z] Node Version:  v8.12.0
+[debug] [2019-07-01T21:25:26.632Z] Time:          Mon Jul 01 2019 17:25:26 GMT-0400 (Venezuela Standard Time)
+[debug] [2019-07-01T21:25:26.632Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-01T21:25:26.646Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-01T21:25:26.647Z] > authorizing via signed-in user
+[debug] [2019-07-01T21:25:26.647Z] [iam] checking project metro-foro for permissions ["firebase.projects.get"]
+[debug] [2019-07-01T21:25:26.650Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/metro-foro:testIamPermissions  
+
+[debug] [2019-07-01T21:25:27.144Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-01T21:25:27.152Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/metro-foro  
+ 
+[debug] [2019-07-01T21:25:27.465Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\IAFIGLIOLA\Desktop\TrabajoActualizado\metroforo\metroforo'...
+[info] 
+[info] +  functions: Using node@8 from host.
+[debug] [2019-07-01T21:25:27.477Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/712776037275/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-01T21:25:27.478Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/712776037275:getServerAppConfig  
+ 
+[debug] [2019-07-01T21:25:27.957Z] <<< HTTP RESPONSE 200
+[info] +  functions: Emulator started at http://localhost:5001
+[debug] [2019-07-01T21:25:27.991Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "C:\Users\IAFIGLIOLA\Desktop\TrabajoActualizado\metroforo\metroforo\functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-07-01T21:25:29.185Z] Functions runtime initialized.
+[debug] [2019-07-01T21:25:29.185Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-07-01T21:25:31.358Z] firebase-admin has been stubbed.
+[info] i  Your code has been provided a "firebase-admin" instance.
+[info] >  universal undefined
+[info] i  functions: HTTP trigger initialized at http://localhost:5001/metro-foro/us-central1/ssr
+[info] [hosting] Rewriting / to http://localhost:5001/metro-foro/us-central1/ssr for local Function ssr
+[debug] [2019-07-01T21:25:36.462Z] Accepted request GET /metro-foro/us-central1/ssr/ --> ssr
+[debug] [2019-07-01T21:25:37.824Z] Functions runtime initialized.
+[info] i  functions: Beginning execution of "ssr"
+[debug] [2019-07-01T21:25:37.828Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-07-01T21:25:40.789Z] firebase-admin has been stubbed.
+[info] i  Your code has been provided a "firebase-admin" instance.
+[info] >  universal undefined
+[debug] [2019-07-01T21:25:41.533Z] Trigger "ssr" has been found, beginning invocation!
+[debug] [2019-07-01T21:25:41.533Z] 
+[debug] [2019-07-01T21:25:41.533Z] Running ssr in mode HTTPS
+[debug] [2019-07-01T21:25:41.549Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\IAFIGLIOLA\\Desktop\\TrabajoActualizado\\metroforo\\metroforo\\functions\\13476"}
+[debug] [2019-07-01T21:25:41.552Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\IAFIGLIOLA\\Desktop\\TrabajoActualizado\\metroforo\\metroforo\\functions\\13476"}
+[debug] [2019-07-01T21:25:41.568Z] Ephemeral server used!
+[debug] [2019-07-01T21:25:41.570Z] Ephemeral server survived.
+[warn] !  TypeError: handler is not a function
+    at cloudFunction (C:\Users\IAFIGLIOLA\Desktop\TrabajoActualizado\metroforo\metroforo\functions\node_modules\firebase-functions\lib\providers\https.js:57:9)
+    at Run (C:\Users\IAFIGLIOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:413:20)
+    at C:\Users\IAFIGLIOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:387:19
+    at Generator.next (<anonymous>)
+    at C:\Users\IAFIGLIOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:7:71
+    at new ZoneAwarePromise (C:\Users\IAFIGLIOLA\Desktop\TrabajoActualizado\metroforo\metroforo\functions\dist\server.js:1056:29)
+    at __awaiter (C:\Users\IAFIGLIOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:3:12)
+    at Run (C:\Users\IAFIGLIOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:380:12)
+    at C:\Users\IAFIGLIOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:412:15
+    at Generator.next (<anonymous>)
+[warn] !  Your function was killed because it raised an unhandled error.

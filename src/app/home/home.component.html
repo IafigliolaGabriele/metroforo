@@ -1,0 +1,8 @@
+<div>
+      <h1> Home Component</h1>
+      <div *ngFor="let item of items | async">
+        <p> Title: {{item.title}}</p>
+        <p> Text: {{item.text}}</p>
+        <button  (click)="navigate(item)">Go</button>
+      </div>
+</div>

@@ -1,0 +1,273 @@
+[debug] [2019-07-02T15:46:06.628Z] ----------------------------------------------------------------------
+[debug] [2019-07-02T15:46:06.633Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IAFIGLIOLA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-07-02T15:46:06.634Z] CLI Version:   6.11.0
+[debug] [2019-07-02T15:46:06.634Z] Platform:      win32
+[debug] [2019-07-02T15:46:06.634Z] Node Version:  v8.12.0
+[debug] [2019-07-02T15:46:06.635Z] Time:          Tue Jul 02 2019 11:46:06 GMT-0400 (Venezuela Standard Time)
+[debug] [2019-07-02T15:46:06.635Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-02T15:46:06.755Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-02T15:46:06.760Z] > authorizing via signed-in user
+[debug] [2019-07-02T15:46:06.761Z] [iam] checking project metro-foro for permissions ["firebase.projects.get"]
+[debug] [2019-07-02T15:46:06.770Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-07-02T15:46:06.771Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-07-02T15:46:07.483Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-02T15:46:07.523Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/metro-foro:testIamPermissions  
+
+[debug] [2019-07-02T15:46:08.634Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-02T15:46:08.642Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/metro-foro  
+ 
+[debug] [2019-07-02T15:46:09.456Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\IAFIGLIOLA\Desktop\TrabajoActualizado\metroforo\metroforo'...
+[info] 
+[info] +  functions: Using node@8 from host.
+[debug] [2019-07-02T15:46:09.516Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/712776037275/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-02T15:46:09.519Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/712776037275:getServerAppConfig  
+ 
+[debug] [2019-07-02T15:46:10.145Z] <<< HTTP RESPONSE 200
+[info] +  functions: Emulator started at http://localhost:5001
+[debug] [2019-07-02T15:46:10.444Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "C:\Users\IAFIGLIOLA\Desktop\TrabajoActualizado\metroforo\metroforo\functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-07-02T15:46:11.764Z] Functions runtime initialized.
+[debug] [2019-07-02T15:46:11.765Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-07-02T15:46:16.477Z] firebase-admin has been stubbed.
+[info] i  Your code has been provided a "firebase-admin" instance.
+[info] i  functions: HTTP trigger initialized at http://localhost:5001/metro-foro/us-central1/ssr
+[info] [hosting] Rewriting / to http://localhost:5001/metro-foro/us-central1/ssr for local Function ssr
+[debug] [2019-07-02T15:47:37.404Z] Accepted request GET /metro-foro/us-central1/ssr/ --> ssr
+[debug] [2019-07-02T15:47:38.722Z] Functions runtime initialized.
+[info] i  functions: Beginning execution of "ssr"
+[debug] [2019-07-02T15:47:38.724Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-07-02T15:47:41.064Z] firebase-admin has been stubbed.
+[info] i  Your code has been provided a "firebase-admin" instance.
+[debug] [2019-07-02T15:47:42.223Z] Trigger "ssr" has been found, beginning invocation!
+[debug] [2019-07-02T15:47:42.223Z] 
+[debug] [2019-07-02T15:47:42.224Z] Running ssr in mode HTTPS
+[debug] [2019-07-02T15:47:42.246Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\IAFIGLIOLA\\Desktop\\TrabajoActualizado\\metroforo\\metroforo\\functions\\16252"}
+[debug] [2019-07-02T15:47:42.248Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\IAFIGLIOLA\\Desktop\\TrabajoActualizado\\metroforo\\metroforo\\functions\\16252"}
+[debug] [2019-07-02T15:47:42.294Z] Ephemeral server used!
+[debug] [2019-07-02T15:47:42.341Z] Ephemeral server survived.
+[info] i  functions: Finished "ssr" in ~1s
+[info] [hosting] Rewriting /main.f166434a51a813bc2b0e.js to http://localhost:5001/metro-foro/us-central1/ssr for local Function ssr
+[debug] [2019-07-02T15:47:42.627Z] Accepted request GET /metro-foro/us-central1/ssr/main.f166434a51a813bc2b0e.js --> ssr
+[debug] [2019-07-02T15:47:43.682Z] Functions runtime initialized.
+[info] i  functions: Beginning execution of "ssr"
+[debug] [2019-07-02T15:47:43.683Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[info] [hosting] Rewriting /home to http://localhost:5001/metro-foro/us-central1/ssr for local Function ssr
+[debug] [2019-07-02T15:47:45.822Z] Accepted request GET /metro-foro/us-central1/ssr/home --> ssr
+[debug] [2019-07-02T15:47:45.989Z] firebase-admin has been stubbed.
+[info] i  Your code has been provided a "firebase-admin" instance.
+[debug] [2019-07-02T15:47:47.011Z] Functions runtime initialized.
+[info] i  functions: Beginning execution of "ssr"
+[debug] [2019-07-02T15:47:47.013Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-07-02T15:47:47.302Z] Trigger "ssr" has been found, beginning invocation!
+[debug] [2019-07-02T15:47:47.303Z] 
+[debug] [2019-07-02T15:47:47.303Z] Running ssr in mode HTTPS
+[debug] [2019-07-02T15:47:47.316Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\IAFIGLIOLA\\Desktop\\TrabajoActualizado\\metroforo\\metroforo\\functions\\14724"}
+[debug] [2019-07-02T15:47:47.317Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\IAFIGLIOLA\\Desktop\\TrabajoActualizado\\metroforo\\metroforo\\functions\\14724"}
+[debug] [2019-07-02T15:47:47.327Z] Ephemeral server used!
+[debug] [2019-07-02T15:47:47.334Z] Ephemeral server survived.
+[info] i  functions: Finished "ssr" in ~1s
+[debug] [2019-07-02T15:47:49.296Z] firebase-admin has been stubbed.
+[info] i  Your code has been provided a "firebase-admin" instance.
+[debug] [2019-07-02T15:47:50.426Z] Trigger "ssr" has been found, beginning invocation!
+[debug] [2019-07-02T15:47:50.426Z] 
+[debug] [2019-07-02T15:47:50.426Z] Running ssr in mode HTTPS
+[debug] [2019-07-02T15:47:50.439Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\IAFIGLIOLA\\Desktop\\TrabajoActualizado\\metroforo\\metroforo\\functions\\10324"}
+[debug] [2019-07-02T15:47:50.440Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\IAFIGLIOLA\\Desktop\\TrabajoActualizado\\metroforo\\metroforo\\functions\\10324"}
+[debug] [2019-07-02T15:47:50.451Z] Ephemeral server used!
+[debug] [2019-07-02T15:47:50.495Z] Ephemeral server survived.
+[info] >  [2019-07-02T15:47:50.549Z]  @firebase/app: 
+[info] >        Warning: This is a browser-targeted Firebase bundle but it appears it is being
+[info] >        run in a Node environment.  If running in a Node environment, make sure you
+[info] >        are using the bundle specified by the "main" field in package.json.
+[info] >        
+[info] >        If you are using Webpack, you can specify "main" as the first item in
+[info] >        "resolve.mainFields":
+[info] >        https://webpack.js.org/configuration/resolve/#resolvemainfields
+[info] >        
+[info] >        If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+[info] >        to false and "main" to true:
+[info] >        https://github.com/rollup/rollup-plugin-node-resolve
+[info] >        
+[info] >  Discarding entity body for GET requests
+[info] >  [2019-07-02T15:48:00.586Z]  @firebase/firestore: Firestore (6.2.4): Could not reach Cloud Firestore backend. Backend didn't respond within 10 seconds.
+[info] >  This typically indicates that your device does not have a healthy Internet connection at the moment. The client will operate in offline mode until it is able to successfully connect to the backend.
+[info] i  functions: Finished "ssr" in ~10s
+[info] [hosting] Rewriting /main.f166434a51a813bc2b0e.js to http://localhost:5001/metro-foro/us-central1/ssr for local Function ssr
+[debug] [2019-07-02T15:48:00.696Z] Accepted request GET /metro-foro/us-central1/ssr/main.f166434a51a813bc2b0e.js --> ssr
+[debug] [2019-07-02T15:48:01.722Z] Functions runtime initialized.
+[info] i  functions: Beginning execution of "ssr"
+[debug] [2019-07-02T15:48:01.724Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-07-02T15:48:04.103Z] firebase-admin has been stubbed.
+[info] i  Your code has been provided a "firebase-admin" instance.
+[debug] [2019-07-02T15:48:05.188Z] Trigger "ssr" has been found, beginning invocation!
+[debug] [2019-07-02T15:48:05.188Z] 
+[debug] [2019-07-02T15:48:05.188Z] Running ssr in mode HTTPS
+[debug] [2019-07-02T15:48:05.200Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\IAFIGLIOLA\\Desktop\\TrabajoActualizado\\metroforo\\metroforo\\functions\\2392"}
+[debug] [2019-07-02T15:48:05.201Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\IAFIGLIOLA\\Desktop\\TrabajoActualizado\\metroforo\\metroforo\\functions\\2392"}
+[debug] [2019-07-02T15:48:05.210Z] Ephemeral server used!
+[debug] [2019-07-02T15:48:05.217Z] Ephemeral server survived.
+[info] i  functions: Finished "ssr" in ~1s
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
+[info] >  Discarding entity body for GET requests
